@@ -1,0 +1,30 @@
+Package: adaptation-samsung-q2q
+Version: 0.0.0+git20241022073319.f62293a.bookworm
+Architecture: arm64
+Maintainer: Azkali Manad <a.ffcc7@gmail.com>
+Installed-Size: 9
+Depends: adaptation-hybris-api30-phone, adaptation-samsung-q2q-configs (= 0.0.0+git20241022073319.f62293a.bookworm)
+Filename: ./adaptation-samsung-q2q_0.0.0+git20241022073319.f62293a.bookworm_arm64.deb
+Size: 2128
+MD5sum: 2fd9c01b07b3abb7910321c565159217
+SHA1: 6eda2c822caa6517f7fd9431e6d61bdcb4b32d2e
+SHA256: 729fcbb9d28d006690a110d48eb32927998ba3345525dff12b6d6e27f41dc886
+Section: metapackages
+Priority: optional
+Description: Community adaptation for samsung-q2q - metapackage
+
+Package: adaptation-samsung-q2q-configs
+Source: adaptation-samsung-q2q
+Version: 0.0.0+git20241022073319.f62293a.bookworm
+Architecture: arm64
+Maintainer: Azkali Manad <a.ffcc7@gmail.com>
+Installed-Size: 223
+Filename: ./adaptation-samsung-q2q-configs_0.0.0+git20241022073319.f62293a.bookworm_arm64.deb
+Size: 35388
+MD5sum: 17c5e9333d5bf916880ebc1c3f42807c
+SHA1: 31cb08471ea10749a7fc5c3ac120fcff4c6298e7
+SHA256: 8d008221754d637b2ba625cde61942f1cc656912deeeb4a520195d9d2a8e8ff9
+Section: metapackages
+Priority: optional
+Description: Community adaptation for samsung-q2q - adaptation configurations
+
