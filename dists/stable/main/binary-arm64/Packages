@@ -1,0 +1,139 @@
+Package: adaptation-samsung-q2q
+Version: 0.0.0+git20241028005401.848b706.bookworm
+Architecture: arm64
+Maintainer: Azkali Manad <a.ffcc7@gmail.com>
+Installed-Size: 9
+Depends: adaptation-hybris-api30-phone, adaptation-samsung-q2q-configs (= 0.0.0+git20241028005401.848b706.bookworm)
+Filename: packages/adaptation-samsung-q2q_0.0.0+git20241028005401.848b706.bookworm_arm64.deb
+Size: 2268
+MD5sum: d3148150957d5f212685d4c9f3cb0ef2
+SHA1: d7d50faa49ab85e5951c7f2787b9e41eba5c62da
+SHA256: 4a587e0e36ce2e0ca59e4f4a167eb069f048c68db41b5464c7208669e1e6ca5e
+Section: metapackages
+Priority: optional
+Description: Community adaptation for samsung-q2q - metapackage
+
+Package: adaptation-samsung-q2q-configs
+Source: adaptation-samsung-q2q
+Version: 0.0.0+git20241028005401.848b706.bookworm
+Architecture: arm64
+Maintainer: Azkali Manad <a.ffcc7@gmail.com>
+Installed-Size: 222
+Filename: packages/adaptation-samsung-q2q-configs_0.0.0+git20241028005401.848b706.bookworm_arm64.deb
+Size: 34380
+MD5sum: ac1c395c3976c44ff99f5cb6bb471a9b
+SHA1: b5b091fd8b1d123c83eddddddf744c2f8738b152
+SHA256: 17373ede4ee22fe6d97ffb7f220b6d561e8d99377a5df591fb7d7fd62c19955b
+Section: metapackages
+Priority: optional
+Description: Community adaptation for samsung-q2q - adaptation configurations
+
+Package: linux-bootimage-5.4.254-samsung-q2q
+Source: linux-android-samsung-q2q
+Version: 0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 70574
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-5.4.254-samsung-q2q (= 0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd)
+Filename: packages/linux-bootimage-5.4.254-samsung-q2q_0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd_arm64.deb
+Size: 71190796
+MD5sum: 4b1c3b0abc5cd8e2707fbc74f408aca1
+SHA1: bc7d71cc3469433ae557d2ae243721f90b837434
+SHA256: 5350db1bf6b86e16433fd8db54fae89c89d4f27eeb722968857265a905f8573e
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Z Fold 3 5G - Android Boot Image
+ This package contains the Linux kernel for the Samsung Z Fold 3 5G device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
+
+Package: linux-bootimage-samsung-q2q
+Source: linux-android-samsung-q2q
+Version: 0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 8
+Depends: linux-bootimage-5.4.254-samsung-q2q (= 0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd)
+Filename: packages/linux-bootimage-samsung-q2q_0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd_arm64.deb
+Size: 2260
+MD5sum: f14f09649711d43b3761da2061628e55
+SHA1: 51bac73ed4f016ebd66d84101f853de110cd2e32
+SHA256: 8be5482f7e3a4381f84e30647099eeb70b5775cf73317f0e1d5a3b7b47d96100
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Z Fold 3 5G - Android Boot Image  (latest)
+ This package depends to the latest kernel bootimage available for the Samsung Z Fold 3 5G.
+
+Package: linux-headers-5.4.254-samsung-q2q
+Source: linux-android-samsung-q2q
+Version: 0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 61875
+Depends: linux-image-5.4.254-samsung-q2q (= 0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd)
+Filename: packages/linux-headers-5.4.254-samsung-q2q_0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd_arm64.deb
+Size: 9709012
+MD5sum: 8735d1ce0d42e383f6f699cb15d161f3
+SHA1: 03ae09bc525a45e2ee2216a70060827003a47b45
+SHA256: e6140922a73da6948edd57ff85ea53ffca659fe190d2cb70564139338f0fdd42
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Z Fold 3 5G - Headers
+ This package contains the Linux kernel headers for the Samsung Z Fold 3 5G device.
+
+Package: linux-headers-samsung-q2q
+Source: linux-android-samsung-q2q
+Version: 0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 8
+Depends: linux-headers-5.4.254-samsung-q2q (= 0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd)
+Filename: packages/linux-headers-samsung-q2q_0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd_arm64.deb
+Size: 2244
+MD5sum: f376015dbe13ee9f703ec27333ddf0bf
+SHA1: e6889132c7d52a4eb3b675456babc5a87fb757ed
+SHA256: 95b249a77d3666b906938ecd4426b3e38f4bbe462e97eb5847756c68ed212ef2
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Z Fold 3 5G - Headers (latest)
+ This package depends to the latest kernel headers available for the Samsung Z Fold 3 5G.
+
+Package: linux-image-5.4.254-samsung-q2q
+Source: linux-android-samsung-q2q
+Version: 0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 54100
+Filename: packages/linux-image-5.4.254-samsung-q2q_0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd_arm64.deb
+Size: 24124880
+MD5sum: e933de0b042ce441188b77cc48c75a0c
+SHA1: ace8522d0572082840c65e90afa43d332839c7ce
+SHA256: 3f11e5d7492f9f49efb10139191765b738ba738f74f5766d01645327873a8e22
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Z Fold 3 5G
+ This package contains the Linux kernel for the Samsung Z Fold 3 5G device.
+ .
+ Note: This package only ships the kernel image and modules, you should probably
+ look at the linux-bootimage-5.4.254-samsung-q2q package for a bootimage suitable
+ for Android boot loaders.
+
+Package: linux-image-samsung-q2q
+Source: linux-android-samsung-q2q
+Version: 0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 8
+Depends: linux-image-5.4.254-samsung-q2q (= 0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd)
+Filename: packages/linux-image-samsung-q2q_0.0.0+git20241028014715.754466a.droidian.f926bxxs6gxbd_arm64.deb
+Size: 2228
+MD5sum: 755accaddc2e792148a40e3edb67ec21
+SHA1: 40d79dbc3c7f7d58236b8472611575dd873e1292
+SHA256: ec2672cd82b78b05fc5a5a418d0adca27f6a7afa2ea5717ea2b1999d7a547222
+Section: kernel
+Priority: optional
+Description: Linux kernel for Samsung Z Fold 3 5G (latest)
+ This package depends to the latest kernel image available for the Samsung Z Fold 3 5G.
+

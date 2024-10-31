@@ -1,0 +1,25 @@
+Origin: https://Azkali.github.io/q2q-droidian-repo
+Label: Droidian PKG
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Packages 
+Date: Thu, 31 Oct 2024 17:29:56 +0000
+MD5Sum:
+ 7294aa6bea81fdbf84a65b494f297449              214 Release
+ 5e3ea9df2e7403fae97dc47069b3847a             6267 main/binary-arm64/Packages
+ db1b05c25a483e89db562795bf5c2853             1608 main/binary-arm64/Packages.gz
+SHA1:
+ 1bb588164ca747ea70e985f1c2b521f9f0f54d99              214 Release
+ 345743b76d20ef3263b7cf62ca21e8889e847bab             6267 main/binary-arm64/Packages
+ e6f233839daf56a6044e0eeab441bc51978b69dd             1608 main/binary-arm64/Packages.gz
+SHA256:
+ 2408a05c70fdc6dd2379791e32966461b1579849f5f2f08094ba8d582485decd              214 Release
+ 8a565c6cc55360b17e47c47580c3240d7ac50b45608126a2e144427b39c047ea             6267 main/binary-arm64/Packages
+ e4f405ddbaa88a3db8a879c9341dbe009a075cfd38c1be1a5551b1890df2f11e             1608 main/binary-arm64/Packages.gz
+SHA512:
+ 5e21c4795eb6535ecb53cc0c85a1fabd474d0fb913d67604284fa5b4c055832de90766e18aa6ba05709fc57352774dc07713ad35893d1b9ae685793e9af1e923              214 Release
+ e251fbaa0ad11374fc7e1fb9eca8ba84ae06ec58b7b61973a8a489e4c8b1288699d45e79b58ba453104817053e05ac62846f8c607d5d0f4434c505fbea944abe             6267 main/binary-arm64/Packages
+ 1467b35de58d0ec8fffd93249b884c671bd1a0335bbc4146235c91380fb9681cef01f71d5f9bb07ef9c1a1bf4c08313d67f5720e05a221f273819cb0bfe5e9ee             1608 main/binary-arm64/Packages.gz
